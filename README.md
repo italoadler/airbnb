@@ -10,3 +10,4 @@
 
 * [ ] dates
 * [ ] check in and out
+* [ ] place
