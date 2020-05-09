@@ -1,8 +1,9 @@
 # airbnb
 
 
-# HEADER 
+# header 
 
-* [ ] LOGO 
-* [ ] NAV
+* [ ] logo 
+* [ ] nav
 
+# search
