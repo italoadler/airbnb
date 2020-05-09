@@ -1,9 +1,8 @@
 # airbnb
 
 
--- Interface  
+# HEADER 
 
-* [ ] Layout 
-* [ ] Font 
-* [ ] Logo 
-* [ ] Header
+* [ ] LOGO 
+* [ ] NAV
+
