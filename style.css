@@ -1,0 +1,70 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#mobile {
+  display: none;
+}
+.mob-container {
+  flex: 1 auto;
+  flex-direction: column;
+  align-items: center;
+  align-content: stretch;
+  
+}
+@media (max-width: 960px) 
+{
+  #mobile  {
+    display: flex;
+    
+  }
+  button {
+    margin-top: 2vw 2vw;
+    height: 45px;
+    font-size: medium;
+    border: none black
+    
+  }
+  input[type=text] {
+    width: 80vw;
+    height: 45px;
+    box-sizing: border-box;
+    margin: auto;
+    padding: 0;
+    border: 1px dashed #ccc;
+    border-radius: 50px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 12px 12px;
+    background-size: 16px 16px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 3s ease-in-out;
+    transition: width 0.1s ease-in-out; 
+
+    font-size: 16px !important;
+    line-height: 20px !important;
+    font-weight: 400 !important;
+    background: none !important;
+
+    color: #222222 !important;
+   
+   
+    text-overflow: ellipsis !important;
+}
+
+
+  }
+  
+  input[type=text]:focus {
+    width:75%;
+  }
+  svg {
+    
+    
+    color: tomato;
+  }
+
+
